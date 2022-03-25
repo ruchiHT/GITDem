@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="74065" started-at="2022-03-23T11:17:36Z" finished-at="2022-03-23T11:18:50Z">
+    <groups>
+    </groups>
+    <test name="HomePage" duration-ms="26885" started-at="2022-03-23T11:17:36Z" finished-at="2022-03-23T11:18:03Z">
+      <class name="ProjectName.ModuleName.HomePage">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:ProjectName.ModuleName.HomePage@f6c48ac]" name="initialize" is-config="true" duration-ms="22555" started-at="2022-03-23T16:47:36Z" finished-at="2022-03-23T16:47:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="pageNavigation(java.lang.String, java.lang.String)[pri:0, instance:ProjectName.ModuleName.HomePage@f6c48ac]" name="pageNavigation" duration-ms="4021" started-at="2022-03-23T16:47:59Z" data-provider="getData" finished-at="2022-03-23T16:48:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nonrestricteduser@qw.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageNavigation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:ProjectName.ModuleName.HomePage@f6c48ac]" name="teardown" is-config="true" duration-ms="232" started-at="2022-03-23T16:48:03Z" finished-at="2022-03-23T16:48:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- ProjectName.ModuleName.HomePage -->
+    </test> <!-- HomePage -->
+    <test name="ValidateNavi" duration-ms="23211" started-at="2022-03-23T11:18:03Z" finished-at="2022-03-23T11:18:27Z">
+      <class name="ProjectName.ModuleName.ValidateNavigation">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:ProjectName.ModuleName.ValidateNavigation@3f49dace]" name="initialize" is-config="true" duration-ms="22695" started-at="2022-03-23T16:48:03Z" finished-at="2022-03-23T16:48:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="basePageNavigation()[pri:0, instance:ProjectName.ModuleName.ValidateNavigation@3f49dace]" name="basePageNavigation" duration-ms="330" started-at="2022-03-23T16:48:26Z" finished-at="2022-03-23T16:48:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:ProjectName.ModuleName.ValidateNavigation@3f49dace]" name="teardown" is-config="true" duration-ms="175" started-at="2022-03-23T16:48:26Z" finished-at="2022-03-23T16:48:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- ProjectName.ModuleName.ValidateNavigation -->
+    </test> <!-- ValidateNavi -->
+    <test name="ValidateTitle" duration-ms="23771" started-at="2022-03-23T11:18:27Z" finished-at="2022-03-23T11:18:50Z">
+      <class name="ProjectName.ModuleName.ValidateTitle">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:ProjectName.ModuleName.ValidateTitle@6e1567f1]" name="initialize" is-config="true" duration-ms="23386" started-at="2022-03-23T16:48:27Z" finished-at="2022-03-23T16:48:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="ValidateTitleQA()[pri:0, instance:ProjectName.ModuleName.ValidateTitle@6e1567f1]" name="ValidateTitleQA" duration-ms="83" started-at="2022-03-23T16:48:50Z" finished-at="2022-03-23T16:48:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateTitleQA -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:ProjectName.ModuleName.ValidateTitle@6e1567f1]" name="teardown" is-config="true" duration-ms="281" started-at="2022-03-23T16:48:50Z" finished-at="2022-03-23T16:48:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- ProjectName.ModuleName.ValidateTitle -->
+    </test> <!-- ValidateTitle -->
+    <test name="AppTest" duration-ms="2" started-at="2022-03-23T11:18:50Z" finished-at="2022-03-23T11:18:50Z">
+    </test> <!-- AppTest -->
+  </suite> <!-- Suite -->
+</testng-results>
