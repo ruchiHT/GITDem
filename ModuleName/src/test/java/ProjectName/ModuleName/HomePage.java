@@ -26,7 +26,7 @@ public class HomePage extends base{
 	@Test(dataProvider="getData")
 	public void pageNavigation(String username, String password) throws IOException
 	{
-		
+		System.out.println("hello");
 		LandingPage lp=new LandingPage(driver);
 		Assert.assertEquals(lp.getTitle().getText(), "FEATURED COURSES");
 		lp.getNoThanks().click();
